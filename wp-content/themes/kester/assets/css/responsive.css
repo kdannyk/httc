@@ -1,0 +1,752 @@
+@charset "utf-8";
+/**
+*
+* -----------------------------------------------------------------------------
+*
+* Template : kester -  News WordPress Theme
+*
+* ----------------------------------------------------------------------------
+*
+**/
+
+.elementor-tab-content{
+	animation: slide-down 2s ease-out;
+}
+header .bg-remove{
+	background: transparent !important;
+}
+.menu-sticky.sticky{
+	top: 0;
+}
+.rt-portfolio-style1.rts-next-match-section p{    
+   margin: 0;    
+}
+.rt-portfolio-style1.rts-next-match-section img{
+	width: 90px;
+}
+.rts-single-news-section .section-inner .item .contents-wrapper .contents .heading .tag,
+.rts-trending-news-section .item .contents-wrapper .contents .heading .tag,
+.rts-post-area .rts-post-wide .contents-wrapper .contents .heading .tag,
+.rts-blog-section3 .blog-area .blog-item .contents-wrapper .contents .heading .tag{
+	margin-bottom: 0;
+	line-height: 18px;
+}
+.rts-gallery-section .gallery-area .gallery-item .contents-wrapper .contents .tag{
+	line-height: 18px;
+}
+.rts-next-match-section .table-area .table-inner .team-name p{
+	margin-bottom: 0;
+}
+.rts-single-news-section .section-inner .item .contents-wrapper .contents .heading .blog-date,
+.rts-trending-news-section .item .contents-wrapper .contents .heading .blog-date,
+.rts-post-area .rts-post-wide .contents-wrapper .contents .heading .blog-date,
+.rts-trending-news-section .item .contents-wrapper .contents .author-info .content .read-more,
+.rts-blog-section3 .blog-area .blog-item .contents-wrapper .contents .author-info .content .read-more,
+.rts-blog-section3 .blog-area .blog-item .contents-wrapper .contents .heading .blog-date,
+.rts-post-area .rts-post-wide .contents-wrapper .contents .author-info .content .read-more,
+.rts-single-news-section .section-inner .item .contents-wrapper .contents .author-info .content .read-more,
+.rts-gallery-section .gallery-area .gallery-item .contents-wrapper .contents .author-info .content .read-more{
+	text-transform: uppercase;
+}
+@media only screen and (min-width: 1366px) {
+	.container{
+		max-width: 1330px;
+		width: 100%;
+	}	
+}
+/* Layout: max 1440px. */
+@media only screen and (max-width: 1440px) {	
+	.menu-area .navbar ul li.mega ul.sub-menu {
+	    min-width: 200px;
+	}	
+	.menu-area .navbar ul li.sub-menu-left.menu-item ul.sub-menu li ul {
+	    left: -100% !important;
+	    top: 0 !important;
+	}	
+	.page-error .content-area h3 span {
+	    font-size: 200px;
+	    margin: 0 0 20px;
+	}	
+	.home1-latest-proj .elementor-element-populated {
+		margin: 0px 0px 0px 0px !important;
+	}
+	body:not(.rtl) .elementor-2427 .elementor-element.elementor-element-520ffc9 {
+		right: 30px !important;
+	}
+	.elementor-element.elementor-element-b77e8a3.elementor-widget__width-initial.clippath-2-title.elementor-widget.elementor-widget-react-heading {
+		--container-widget-width: 100%;
+	}
+	.elementor-element.elementor-element-b77e8a3.elementor-widget__width-initial.clippath-2-title.elementor-widget.elementor-widget-react-heading .elementor-widget-container {
+		margin: 0px 0px 40px 0px !important;
+	}
+	.elementor-45 .elementor-element.elementor-element-e64a0c2 > .elementor-widget-container {
+		margin: 0px 25px 0px 0px !important;
+	}
+	.handyman_portfolio {
+		padding: 35px 0 0 0 !important;
+	}
+	.eng_slider_divid_posi {
+		left: -3% !important;
+	}
+	.eng_slider_social_posi {
+		left: 0 !important;
+		top: 54% !important;
+	}
+	.eng_slider_text_posi {
+		left: -2.5% !important;
+		top: 30% !important;
+	}
+	
+}
+@media only screen and (min-width: 1024px) {
+	.mobile-menus{
+		display: none;
+	}
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	
+	.pagination-area{
+		margin-bottom: 50px;
+	}	
+	.container {
+	    max-width: 100%;
+	} 
+}
+@media only screen and (max-width:1024px){
+	#reactheme-header .primary-menu .navbar-menu,
+	.menu-area .menu-responsive.primary-menu .navbar-menu
+	{
+		display: none;
+	} 	
+	.primary-menu-icon .sidebarmenu-area.text-right.mobilehum {
+		display: block;
+	}
+
+	.reactheme-innner-offcanvas-contents{
+		display: none;
+	}
+	.menu-wrap-off .inner-offcan{
+		display: block;
+	}	
+	.slider_subtitle,
+	.slider_title {
+		left: 20px;
+	}
+	.slider-btn-one.team-btn.banner-btn {
+		left: 20px;
+	}
+	.slider-btn-one.nxt-match-btn.banner-btn {
+		left: 40px;
+	}
+	.event-details .countdown.sp-countdown time span {
+		font-size: 45px !important;
+	}
+	.rts-latest-match-inner .sp-countdown-wrapper .event-details .live {
+		font-size: 210px;
+		line-height: 200px;
+	}
+	.rts-latest-match-inner .sp-event-name .team-logo {
+		width: 30%;
+	}
+	.rts-latest-match-inner .sp-countdown-wrapper .sp-countdown {
+		top: 60%;
+		transform: translate(0, -60%);
+	}
+	.h2_wgt_countdown .sp-template-countdown .sp-countdown-wrapper .event-details .live {
+		display: none;
+	}
+	.staff-details-single li span.key {
+		flex-basis: 40%;
+	}
+	.staff-details-single li span.value {
+		flex-basis: 60%;
+		text-align: right;
+	}
+	.reactheme-breadcrumbs .page-title {
+		font-size: 55px;
+		line-height: 65px;
+	}
+	.blog-grid-small a.gallery-picture {
+	    flex-basis: inherit;
+	}
+	.reactheme-blog-details .news-details-inner .sp-event-video iframe {
+	    height: 500px !important;
+	}
+}
+
+/* Medium Layout: 991px. */
+@media only screen and (min-width: 992px) {
+	body.off-open{
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	#mobile_menu{
+		padding-top: 35px;
+	}
+	.single-post .reactheme-blog-details .type-post .single-content-full{
+		padding:12px 10px 40px;
+	}
+	.single h2{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	ol{
+		margin-left: 2em;
+	}
+	li.menu-item-has-children a:before{
+		display: none;
+	}	
+	#mobile_menu .menu li.mega ul.sub-menu li ul.sub-menu a {
+	    padding-left: 25px;
+	}	
+	.reactheme-blog-grid1.blog-item .image-part a img{
+		width: 100%;
+	}
+	.menu-wrap-off .inner-offcan{
+		display: block;
+	}
+	body.logged-in .menu-wrap-off .inner-offcan .nav-link-container{
+		top:44px
+	}
+	.menu-wrap-off .inner-offcan .nav-link-container{
+		top: 44px;
+	}	
+	.sidenav .widget_nav_menu ul ul li a {
+	    font-size: 14px !important;
+	}
+	
+	.padding-left-sidebar .dynamic-sidebar{
+		padding-right: 0;
+	}
+	.menu-wrap-off {
+	    padding: 46px 30px 50px 36px;
+	}
+	.pagination-area{
+		margin-top: 50px;
+	}
+		
+	.main-contain #content {
+	    padding-top: 80px;
+	    padding-bottom: 80px;
+	}
+	.single-portfolios .main-contain #content{
+		padding-bottom: 90px;
+	}	
+	
+	#mobile_menu ul ul .submenu-button {
+		top: 5px;
+	}
+	#mobile_menu .submenu-button:before {
+	    top: 11px;
+	    height: 12px;	   
+	}
+	.reactheme-portfolio-style7 .showcase-item img{
+		position: absolute !important;
+	}
+	#mobile_menu .submenu-button::after,
+	.menu-wrap-off .inner-offcan .nav-link-container .close-button i:before {
+	    font-size: 16px;
+	}
+	#mobile_menu ul ul .submenu-button::before {
+	    top: 11px;
+	    right: 17px;
+	}
+	#mobile_menu .submenu-button {
+	    top: 13px;
+	}
+	.menu-wrap-off .inner-offcan {
+	    padding: 0;
+	}
+	.sidenav p,
+	.sidenav .footer-contact-ul li.address1,
+	.sidenav.offcanvas-icon .reactheme-offcanvas-right a{
+	    font-size: 16px;
+	}
+	#menu-offcanvas, .widget.icon-list ul.menu{
+		display: none !important;
+	}
+	.sidenav .menu li ul.sub-menu li a {
+	    font-size: 14px;
+	}	
+	.sidenav .widget_nav_menu ul li ul li a {
+	    padding: 10px 0;
+	}	
+	
+	.sidenav .menu > li.menu-item-has-children::before {
+	    top: 15px;
+	    font-size: 20px !important;
+	}
+	.menu-wrap-off{
+		overflow-x: hidden;
+	}	
+	.menu-wrap-off{
+		overflow-y: auto;
+		top: 0;
+	}	
+	.dynamic-sidebar {
+	    padding: 0;
+	}	
+	.close-search {
+	    right: 25px;
+	    top: 25px;
+	}	
+	body.logged-in .close-search {
+	    right: 30px;
+	    top: 50px;
+	}
+	.search-results .widget-area {
+		margin-top: 70px;
+	}
+
+	.sidenav{
+		padding:0;
+		width: auto;
+	}	
+		
+	.logged-in .menu-sticky.sticky .sidenav .nav-link-container{
+		margin-top: 15px;
+	}
+	.menu-area .mobile-menu-link, 
+	.menu-area .mobile-menu-container {
+	    display: block;
+	}
+
+	.reactheme-breadcrumbs{
+		clear: both;
+	}
+
+	.menu-area #primary-menu-single {
+		display: block;
+	}	
+	.menu-main-menu-single-container{
+		width: 100%;
+		padding: 0;
+		background: #50d2c2;
+	}
+	.navbar-header{
+		float: none;
+		margin-top: 8px;
+	}
+	#reactheme-header .menu-area .navbar ul li:hover a::after, 
+	#reactheme-header .menu-area .navbar ul li.active a::after{
+		display: none;
+	}
+	.menu-area .navbar ul li ul.sub-menu {
+		min-width: 100%;
+		display: none;
+	}	
+	.nxt-match-btn,
+	.team-btn {
+		padding: 11px 14px !important;
+	}	
+	.rts-latest-match-inner .sp-countdown-wrapper .event-details {
+		position: inherit !important;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -0%);
+	}
+	.rts-latest-match-inner .sp-countdown-wrapper .sp-countdown {
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -60%);
+		width: 100%;
+	}
+	.rts-latest-match-inner .sp-event-name .team-logo {
+		width: 45%;
+	}
+	.rts-latest-match-inner .sp-event-name {
+		margin: 0;
+	}
+	.rts-latest-match-inner .sp-countdown-wrapper .event-details .live {
+		font-size: 250px;
+	}
+	.h2_wgt_countdown .sp-template-countdown .sp-countdown-wrapper .event-details .sp-countdown {
+		left: 0;
+	}
+	.h2_wgt_countdown .sp-template-countdown .sp-countdown-wrapper .event-name.sp-event-name .team-logo img {
+		width: 150px !important;
+	}
+	.h2_wgt_countdown h5 {
+		margin: 40px 30px 35px;
+	}
+	.staff-details-single li span.key {
+		flex-basis: 40%;
+	}
+	.staff-details-single li span.value {
+		flex-basis: 60%;
+		text-align: right;
+	}
+	.reactheme-breadcrumbs .page-title {
+		font-size: 45px;
+		line-height: 60px;
+	}
+	.archive .full-layout-right, .blog .full-layout-right {
+		padding-right: 15px;
+	}
+	.reactheme-blog-details .news-details-inner {
+		margin-right: 0;
+	}
+	.baseball_envent_date .rts-latest-match-inner .sp-countdown-wrapper .sp-countdown {
+	    top: 20%;
+	    left: 50%;
+	    transform: translate(-50%, -20%);
+	}
+	.rts-upcoming-events .swipper-bulet-pagination {
+	    padding-top: 50px !important;
+	}
+	.reactheme-blog-details .news-details-inner .sp-event-video iframe {
+	    height: 500px !important;
+	}
+	
+}
+@media only screen and (max-width: 767px) {  
+	.reactheme-breadcrumbs .page-title{
+		font-size: 60px;
+		line-height: 70px;
+	}
+	.table-background tr, 
+	.table-background td, 
+	.table-background th {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	body.single-post .react-sideabr{
+		padding-top: 50px;
+	}
+
+	.menu-sticky.sticky{
+		position: static;
+	}
+	.comments-area .comment-list li.comment ol.children li {
+	    margin-left: 0;
+	}
+	.comments-area .comment-list li.comment .comment-author img{
+		float: none;
+		border-radius: 5px;
+		display: block;
+		margin: 0 auto;
+		padding:0 0 20px;
+		position: static;
+	}
+	.comments-area .comment-list li.comment .comment-author b {
+	    float: none;
+		border-radius: 5px;
+		display: block;
+		margin: 0 auto;
+		padding:0;
+	}
+	.comments-area .comment-list li.comment .reply {
+	    padding-left: 0;
+	    margin-top: 0;
+	    text-align: center;
+	}
+	.comments-area ol.children {
+	    padding: 0;
+	    margin: 0;
+	}
+	.comments-area .comment-list li.comment ol.children li{
+		padding: 0;
+	}
+	.comments-area .comment-list li.comment .comment-metadata {
+	    margin-left: 0;
+	    margin-top: 0;
+	}
+	.comment-full{
+		text-align: center;
+	}
+	#review_form .comment-full{
+		text-align: unset;
+	}	
+	.comments-area .comment-list li.comment .comment-content{
+		padding: 0;
+	}
+	.comments-area .comment-list li.comment {
+		padding: 10px;
+		margin: 0;
+		border: none;
+		box-shadow: none;
+	}
+	.comments-area .comment-list li.comment .comment-content p {
+		margin-bottom: 8px;
+	}
+	.comments-area .comment-list li.comment .comment-content p {
+		margin-bottom: 8px;
+	}
+	.comments-area .comment-list li.comment .comment-content {
+		margin-top: 15px;
+	}
+
+	.reactheme-breadcrumbs .breadcrumbs {
+		margin-top: 8px;
+	}
+	.reactheme-heading h2:after{
+		display: none;
+	}
+	.reactheme-heading h2{
+		font-size: 25px;
+		line-height: 36px;
+	}
+	.sidenav.nav-active-menu-container .offcanvas_social li a{
+		padding: 20px 0 0 16px;
+	}	
+	.blog .reactheme-blog .blog-item .full-blog-content,
+	.archive .reactheme-blog .blog-item .full-blog-content{
+		padding:20px
+	}
+	.blog .reactheme-blog .blog-item .full-blog-content .title-wrap .blog-title, 
+	.archive .reactheme-blog .blog-item .full-blog-content .title-wrap .blog-title{
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.react-sideabr .widget_block label.wp-block-search__label, .react-sideabr .widget_block h2, .react-sideabr .widget-title{
+		font-size: 22px;
+	}
+	
+	.comments-area .comment-list li.comment .comment-body{
+		padding-left: 0;
+	}
+	.nxt-match-btn,
+	.team-btn {
+		padding: 11px 14px !important;
+	}
+	.slider-btn-one.nxt-match-btn.banner-btn {
+		left: 20px;
+	}
+	.rts-latest-match-inner .sp-countdown-wrapper .event-details {
+		position: inherit !important;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -0%);
+	}
+	.rts-latest-match-inner .sp-countdown-wrapper .sp-countdown {
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -60%);
+		width: 100%;
+	}
+	.rts-latest-match-inner .sp-event-name .team-logo {
+		width: 100%;
+	}
+	.rts-latest-match-inner .sp-countdown-wrapper .event-details .live {
+		font-size: 175px;
+	}
+	.rts-next-match-section .table-area .table-inner .team-logo-area {
+		margin-left: 0;
+	}
+	.footer_gallery figure.gallery-item {
+		width: 33.3% !important;
+	}
+	.h2_wgt_countdown .sp-template-countdown .sp-countdown-wrapper .event-name.sp-event-name .team-logo img {
+		width: 150px !important;
+	}
+	.h2_wgt_countdown h5 {
+		margin: 40px 30px 35px;
+	}
+	.staff-details-single li span.key {
+		display: block;
+	}
+	.staff-details-single li span.value {
+		flex-basis: 100%;
+		text-align: left;
+	}
+	.sp-template-logo, .sp-template-photo {
+		float: inherit;
+		margin-bottom: 0;
+		margin-right: 0;
+		max-width: 100%;
+	}
+	.sp-template-logo, .sp-template-photo img  {
+		width: 100%;
+	}
+	ul.sp-staff-details {
+		padding: 0;
+		margin: 0;
+	}
+	ul.sp-staff-details li {
+		list-style: none;
+		display: inherit;
+	}
+	.reactheme-breadcrumbs .page-title {
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.reactheme-breadcrumbs .breadcrumbs-title span {
+		font-size: 14px;
+	}
+	.event-section-details .sp-post-caption, .event-section-details .sp-table-caption {
+		margin-bottom: 30px !important;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.event-section-details .sp-section-content {
+		margin-top: 90px;
+	}
+	.sp-event-performance-teams .sp-template-event-performance-icons {
+		width: 100%;
+		float: inherit;
+		clear: both;
+		padding-right: 0;
+	}
+	.archive .full-layout-right, .blog .full-layout-right {
+		padding-right: 15px;
+	}
+	.reactheme-blog-details .news-details-inner {
+		margin-right: 0;
+	}
+	.baseball_envent_date .rts-latest-match-inner .sp-event-name a.logo-even {
+	    flex-direction: column;
+	}
+	.baseball_envent_date .rts-latest-match-inner .sp-event-name a {
+	    flex-direction: column;
+	}
+	.baseball_envent_date .rts-latest-match-inner .sp-event-name a.logo-even img {
+	    margin-left: 0;
+	}
+	.baseball_envent_date .rts-latest-match-inner .sp-event-name a.logo-odd img {
+	    margin-right: 0;
+	}
+	.baseball_envent_date .rts-latest-match-inner .sp-countdown-wrapper .event-date, 
+	.baseball_envent_date .rts-latest-match-inner .sp-countdown-wrapper .event-league {
+	    position: inherit;
+	}
+	.baseball_envent_date .rts-latest-match-inner .sp-countdown-wrapper .event-league {
+	    margin-top: 0;
+	}
+	.rts-upcoming-events .swipper-bulet-pagination {
+	    padding-top: 45px !important;
+	}
+	.baseball_envent_date .rts-latest-match-inner .sp-countdown-wrapper .event-details .countdown.sp-countdown time {
+	    flex-direction: column;
+	}
+	.baseball_envent_date .rts-latest-match-inner .sp-countdown-wrapper .sp-countdown {
+		position: inherit;
+	    top: 0 !important;
+	    left: 50%;
+	    transform: translate(-50%, 0%) !important;
+	}
+	.reactheme-blog-details .news-details-inner .sp-event-video iframe {
+	    height: 500px !important;
+	}
+}
+@media (min-width: 576px){
+	.container {
+	    max-width: 1240px;
+	    width: 100%;
+	}
+}
+
+@media (max-width: 475px){
+	.rts-post-area .rts-post-wide .contents-wrapper .contents .heading {
+	    flex-direction: column;
+	}
+	.rts-post-area .rts-post-wide .contents-wrapper .contents .heading .blog-date {
+	    margin-left: 0;
+	}
+	.rts-post-area .rts-post-wide .contents-wrapper .contents .heading .tag {
+	    max-width: max-content;
+	    margin-bottom: 5px;
+	}
+	.reactheme-blog-details .news-details-inner .sp-event-video iframe {
+	    height: 350px !important;
+	}
+	
+}
+
+
+.staff-details-single li{
+	isplay: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 19px 0;
+    border-bottom: 1px solid #e2e6e8;
+
+}
+.staff-details-single li span.key{
+    font-size: 18px;
+    line-height: 35px;
+    color: #5b5f64 !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    font-family: 'Oswald';
+}
+.staff-details-single li span.value{
+	font-size: 16px;
+    color: #999999 !important;
+    font-weight: 400;  
+    text-transform: uppercase !important;
+}
+.rts-staff-member-details .sp-staff-name{
+	position: relative;
+    margin: 0 0 32px 0;
+    padding: 0 0 20px 30px;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid #e2e6e8;
+	text-transform: uppercase;
+}
+
+ .rts-staff-member-details .sp-staff-name:before{
+ 	position: absolute;
+    content: "";
+    left: 0;
+    top: calc(50% - 10px);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background: var(--theme-color);
+ }   
+ .rts-staff-member-details .sportspress{
+ 	margin-bottom: 50px
+ }
+ .description- .sp-excerpt, .description- .sp-post-content{
+ 	display: none;
+ }
+
+ .rts-next-match-section tr.sp-event-venue-map-row,
+ .rts-next-match-section .sp-template-event-venue h4{
+ 	display: none !important;
+ }
+  .rts-next-match-section .sp-event-venue{
+  	margin: 0 !important;
+  }
+  .rts-next-match-section .sp-data-table.sp-event-venue tr,
+  .rts-next-match-section .sp-data-table.sp-event-venue td,
+  .rts-next-match-section .sp-data-table.sp-event-venue th{
+  	padding: 0 !important;
+  }
+
+  .rts-next-match-section .sp-template-event-venue{
+  	margin-bottom: 0 !important;
+  }
+
+
+
+  /* team section */
+
+
+  @media only screen and (max-width: 768px) {
+	.team-section-details .sp-template-logo {
+		width: 100%;
+	}
+	.team-section-details .sp-template-logo img {
+		max-height: 300px;
+		object-fit: contain;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 570px) {
+	
+	.sp-template-photo img{
+		width: 50% !important;
+	}
+
+}
